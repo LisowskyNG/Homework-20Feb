@@ -24,7 +24,11 @@ public class Main {
     public static void task2() {
         System.out.println("Задача 2");
         // Пишем код для задачи 2
-
+        String name = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + ' ' + name + ' ' + middleName;
+        System.out.println("ФИО сотрудника - " + fullName.toUpperCase());
     }
 
     public static void task3() {
