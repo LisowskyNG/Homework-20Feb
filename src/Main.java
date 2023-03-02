@@ -3,11 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
-        task4();
-        task5();
-        task6();
-        task7();
-        task8();
+
 
     }
     public static void task1() {
@@ -34,36 +30,14 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         // Пишем код для задачи 3
+        String name = "Семён";
+        String middleName = "Семёнович";
+        String lastName = "Иванов";
+        String fullName = lastName + ' ' + name + ' ' + middleName;
+        fullName = fullName.replace('ё', 'е');
+        System.out.println("ФИО сотрудника - " + fullName);
 
     }
 
-    public static void task4() {
-        System.out.println("Задача 4");
-        // Пишем код для задачи 4
-
-    }
-
-    public static void task5 () {
-        System.out.println("Задача 5");
-        // Пишем код для задачи 5
-
-    }
-
-    public static void task6() {
-        System.out.println("Задача 6");
-        // Пишем код для задачи 6
-
-    }
-
-    public static void task7() {
-        System.out.println("Задача 7");
-        // Пишем код для задачи 7
-
-    }
-    public static void task8 () {
-        System.out.println("Задача 8");
-        // Пишем код для задачи 8
-
-    }
 
 }
